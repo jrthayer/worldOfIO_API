@@ -1,0 +1,31 @@
+{
+    "name": "worldofio_api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest --verbose --setupFiles dotenv/config --detectOpenHandles --coverage"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jrthayer/worldOfIO_API.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jrthayer/worldOfIO_API/issues"
+    },
+    "homepage": "https://github.com/jrthayer/worldOfIO_API#readme",
+    "dependencies": {
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "joi": "^17.4.2",
+        "joi-objectid": "^4.0.2",
+        "mongoose": "^6.0.10",
+        "winston": "^3.3.3"
+    },
+    "devDependencies": {
+        "jest": "^27.2.5",
+        "superjest": "^0.1.0"
+    }
+}
