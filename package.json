@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "jest --verbose --setupFiles dotenv/config --detectOpenHandles --coverage"
+        "test": "jest --verbose --setupFiles dotenv/config --detectOpenHandles",
+        "testCoverage": "jest --verbose --setupFiles dotenv/config --detectOpenHandles --coverage"
     },
     "repository": {
         "type": "git",
